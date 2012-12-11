@@ -1,0 +1,25 @@
+.anchor {
+	padding-left: 30px;
+	margin-left: -30px;
+	cursor: pointer;
+	position: absolute;
+	left: 10px;
+}
+
+.mini-icon {
+	visibility: hidden;
+	display: inline-block;
+	text-decoration: inherit;
+	line-height: 1;
+	text-decoration: none;
+	font-weight: normal;
+}
+
+.heading:hover .mini-icon{
+	visibility: visible;
+}
+
+.mini-icon:before {
+	content: "#";
+	color: gray;
+}

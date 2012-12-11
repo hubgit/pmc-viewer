@@ -1,0 +1,9 @@
+.floating-image {
+	float: left;
+	margin-top: 0;
+	max-width: 50%;
+}
+
+figcaption p {
+	min-width: 40em;
+}
